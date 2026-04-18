@@ -54,8 +54,11 @@ docker exec -it n8n-final setup-n8n
 - `Dockerfile`: 定义插件安装逻辑。
 - `docker-compose.yml`: 定义容器运行参数与磁盘挂载。
 - `setup.sh`: 运行时环境补全脚本（已挂载至容器内部）。
+- `n8n-community-node.md`: 外部插件清单，方便管理。
 
-## 💡 常见问题
+## 📍 资源链接
+- **Docker Hub**: [hub.docker.com/r/591124281yj228/n8n-playwright](https://hub.docker.com/r/591124281yj228/n8n-playwright)
+- **GitHub Source**: [github.com/tansunyj/n8n-playwright-docker](https://github.com/tansunyj/n8n-playwright-docker)
 - **构建崩溃？** 请检查 Docker Desktop 分配的内存是否达到 6GB+。
 - **插件无法加载？** 检查容器日志 `docker logs -f n8n-final`。
 - **更新脚本？** 直接修改本地的 `setup.sh`，无需重新构建镜像，直接再次执行 `docker exec -it n8n-final setup-n8n` 即可。

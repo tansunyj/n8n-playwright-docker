@@ -1,3 +1,6 @@
+youtube-transcript
+puppeteer-extra-plugin-stealth
+puppeteer-extra-plugin-user-preferences
 @apify/n8n-nodes-apify
 @rsraven/n8n-nodes-ytdlp-transcript
 @searchapi/n8n-nodes-searchapi

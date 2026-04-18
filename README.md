@@ -1,8 +1,17 @@
-# n8n Custom Image (Playwright Enabled)
+# n8n Playwright Docker 🚀
 
-This is a custom n8n image based on Debian (Node 22), specifically optimized for browser automation using Playwright and Puppeteer.
+[![Docker Pulls](https://img.shields.io/docker/pulls/591124281yj228/n8n-playwright.svg)](https://hub.docker.com/r/591124281yj228/n8n-playwright)
+[![Docker Image Version](https://img.shields.io/docker/v/591124281yj228/n8n-playwright?label=version)](https://hub.docker.com/r/591124281yj228/n8n-playwright)
 
-## Key Features
+基于 Debian (Node 22) 构建的 n8n 自定义镜像，专为 Playwright 和 Puppeteer 浏览器自动化优化。
+
+## 📍 资源链接
+- **Docker Hub**: [hub.docker.com/r/591124281yj228/n8n-playwright](https://hub.docker.com/r/591124281yj228/n8n-playwright)
+- **GitHub Source**: [github.com/tansunyj/n8n-playwright-docker](https://github.com/tansunyj/n8n-playwright-docker)
+
+---
+
+## 🛠️ Key Features
 - **Base OS**: Debian Bookworm (Slim)
 - **Node.js**: v22.22.2 (LTS)
 - **n8n Version**: 2.14.2
