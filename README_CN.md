@@ -1,31 +1,31 @@
 # n8n Playwright Docker 🚀
 
-English | [简体中文](README_CN.md)
+[English](README.md) | 简体中文
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/591124281yj228/n8n-playwright.svg)](https://hub.docker.com/r/591124281yj228/n8n-playwright)
 [![Docker Image Version](https://img.shields.io/docker/v/591124281yj228/n8n-playwright?label=version)](https://hub.docker.com/r/591124281yj228/n8n-playwright)
 
-A custom n8n Docker image based on Debian (Node 22), specifically optimized for browser automation with Playwright and Puppeteer.
+基于 Debian (Node 22) 构建的 n8n 自定义镜像，专为 Playwright 和 Puppeteer 浏览器自动化优化。
 
-## 📍 Resource Links
+## 📍 资源链接
 - **Docker Hub**: [hub.docker.com/r/591124281yj228/n8n-playwright](https://hub.docker.com/r/591124281yj228/n8n-playwright)
-- **GitHub Source**: [github.com/tansunyj/n8n-playwright-docker](https://github.com/tansunyj/n8n-playwright-docker)
+- **GitHub 源码**: [github.com/tansunyj/n8n-playwright-docker](https://github.com/tansunyj/n8n-playwright-docker)
 
 ---
 
-## 🛠️ Key Features
-- **Base OS**: Debian Bookworm (Slim)
-- **Node.js**: v22.22.2 (LTS)
-- **n8n Version**: 2.14.2
-- **Pre-installed Nodes**:
+## 🛠️ 核心功能
+- **基础操作系统**: Debian Bookworm (Slim)
+- **Node.js 版本**: v22.22.2 (LTS)
+- **n8n 版本**: 2.14.2
+- **内置社区节点**:
   - `n8n-nodes-playwright`
   - `n8n-nodes-puppeteer`
   - `n8n-nodes-douyin-video-crawler`
   - `n8n-nodes-feishu-lite`
-  - and more...
-- **Persistence**: Playwright browsers are stored in `/root/.cache/ms-playwright`, mapped to persistent volumes to avoid re-downloading.
+  - 以及更多...
+- **持久化**: Playwright 浏览器存储在 `/root/.cache/ms-playwright`，已映射到持久化卷以避免重复下载。
 
-## ⏩ Quick Start (with Docker Compose)
+## ⏩ 快速开始 (使用 Docker Compose)
 
 ```yaml
 services:
@@ -41,11 +41,11 @@ services:
       - E:/docker/.n8n/browsers:/root/.cache/ms-playwright
 ```
 
-## ⚙️ Setup Instructions
-After starting the container, run the following command once to install the browsers:
+## ⚙️ 环境初始化
+容器启动后，请运行一次以下命令来安装浏览器：
 ```bash
 docker exec -it n8n-final setup-n8n
 ```
 
-## 👤 Maintainer
+## 👤 维护者
 - **Docker Hub**: 591124281yj228
