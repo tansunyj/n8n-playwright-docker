@@ -1,0 +1,12 @@
+@apify/n8n-nodes-apify
+@rsraven/n8n-nodes-ytdlp-transcript
+@searchapi/n8n-nodes-searchapi
+@tavily/n8n-nodes-tavily
+@vlm-run/n8n-nodes-vlmrun
+n8n-nodes-douyin-video-crawler
+n8n-nodes-make-pdf
+n8n-nodes-playwright
+n8n-nodes-puppeteer
+n8n-nodes-qrcode
+n8n-nodes-serpapi
+n8n-nodes-feishu-lite

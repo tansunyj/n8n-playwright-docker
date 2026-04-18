@@ -1,0 +1,26 @@
+# Docker / n8n 镜像构建项目 .gitignore
+
+# 1. 忽略大文件和备份压缩包
+*.tar.gz
+*.zip
+*.bak
+* - 副本*
+(docker-compose)备份.yml
+
+# 2. 忽略 n8n 运行时产生的数据和二进制文件
+.n8n/
+yt-dlp
+local-files/
+
+# 3. 忽略 Node.js 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 4. 忽略操作系统敏感文件
+.DS_Store
+Thumbs.db
+
+# 5. 忽略本地环境配置 (如果有 .env 文件)
+.env
